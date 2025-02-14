@@ -1,9 +1,6 @@
 // src/components/Navbar.js
-import React from 'react';
-import { Link } from 'react-router-dom';
-
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // Only import Link from react-router-dom
+import React, { useState } from 'react';  // Only import React once
 
 const Navbar = () => {
     const [searchQuery, setSearchQuery] = useState('');
